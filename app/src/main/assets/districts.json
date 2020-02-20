@@ -1,0 +1,1730 @@
+[
+  {
+    "id": 1,
+    "district": "Abura Asebu Kwaman",
+    "districtcode": "CR10",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 2,
+    "district": "Accra Metro",
+    "districtcode": "GR02",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 3,
+    "district": "Ada East",
+    "districtcode": "GR13",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 4,
+    "district": "Ada West",
+    "districtcode": "GR12",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 5,
+    "district": "Adaklu",
+    "districtcode": "VR24",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 6,
+    "district": "Adansi North",
+    "districtcode": "AR16",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 7,
+    "district": "Adansi South",
+    "districtcode": "AR15",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 8,
+    "district": "Adentan",
+    "districtcode": "GR06",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 9,
+    "district": "Afadzato South",
+    "districtcode": "VR18",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 10,
+    "district": "Afigya-Kwabere",
+    "districtcode": "AR23",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 11,
+    "district": "Agona East",
+    "districtcode": "CR16",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 12,
+    "district": "Agona West",
+    "districtcode": "CR06",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 13,
+    "district": "Agortime Ziope",
+    "districtcode": "VR19",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 14,
+    "district": "Ahafo Ano North",
+    "districtcode": "AR11",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 15,
+    "district": "Ahafo Ano South",
+    "districtcode": "AR10",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 16,
+    "district": "Ahanta West",
+    "districtcode": "WR07",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 17,
+    "district": "Ajumako Enyan Esiam",
+    "districtcode": "CR11",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 18,
+    "district": "Akatsi North",
+    "districtcode": "VR21",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 19,
+    "district": "Akatsi South",
+    "districtcode": "VR25",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 20,
+    "district": "Akim East",
+    "districtcode": "ER04",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 21,
+    "district": "Akim West",
+    "districtcode": "ER09",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 22,
+    "district": "Akwapim North",
+    "districtcode": "ER05",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 23,
+    "district": "Akwapim South",
+    "districtcode": "ER20",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 24,
+    "district": "Akyemansa",
+    "districtcode": "ER18",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 25,
+    "district": "Amansie Central",
+    "districtcode": "AR17",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 26,
+    "district": "Amansie West",
+    "districtcode": "AR12",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 27,
+    "district": "Amenfi West",
+    "districtcode": "WR08",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 28,
+    "district": "Aowin",
+    "districtcode": "WR18",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 29,
+    "district": "Asante Akim Central",
+    "districtcode": "AR08",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 30,
+    "district": "Asante Akim North",
+    "districtcode": "AR28",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 31,
+    "district": "Asante Akim South",
+    "districtcode": "AR13",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 32,
+    "district": "Ashiaman",
+    "districtcode": "GR07",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 33,
+    "district": "Asikuma Odoben Brakwa",
+    "districtcode": "CR09",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 34,
+    "district": "Asokore Mampong",
+    "districtcode": "AR07",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 35,
+    "district": "Assin North",
+    "districtcode": "CR03",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 36,
+    "district": "Assin South",
+    "districtcode": "CR12",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 37,
+    "district": "Asunafo North",
+    "districtcode": "BR02",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 38,
+    "district": "Asunafo South",
+    "districtcode": "BR12",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 39,
+    "district": "Asuogyaman",
+    "districtcode": "ER12",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 40,
+    "district": "Asutifi North",
+    "districtcode": "BR25",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 41,
+    "district": "Asutifi South",
+    "districtcode": "BR20",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 42,
+    "district": "Atebubu",
+    "districtcode": "BR11",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 43,
+    "district": "Atiwa",
+    "districtcode": "ER14",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 44,
+    "district": "Atwima Kwamwoma",
+    "districtcode": "AR21",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 45,
+    "district": "Atwima Mponua",
+    "districtcode": "AR18",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 46,
+    "district": "Atwima Nwabiagye",
+    "districtcode": "AR14",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 47,
+    "district": "Awutu Senya",
+    "districtcode": "CR19",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 48,
+    "district": "Awutu Senya East",
+    "districtcode": "CR07",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 49,
+    "district": "Ayensuano",
+    "districtcode": "ER26",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 50,
+    "district": "Banda",
+    "districtcode": "BR24",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 51,
+    "district": "Bawku",
+    "districtcode": "UER02",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 52,
+    "district": "Bawku West",
+    "districtcode": "UER04",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 53,
+    "district": "Bekwai",
+    "districtcode": "AR04",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 54,
+    "district": "Berekum",
+    "districtcode": "BR03",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 55,
+    "district": "Bia East",
+    "districtcode": "WR16",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 56,
+    "district": "Bia West",
+    "districtcode": "WR15",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 57,
+    "district": "Biakoye",
+    "districtcode": "VR11",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 58,
+    "district": "Bibiani Anhwiaso",
+    "districtcode": "WR05",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 59,
+    "district": "Binduri",
+    "districtcode": "UER10",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 60,
+    "district": "Birim Central",
+    "districtcode": "ER02",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 61,
+    "district": "Birim North",
+    "districtcode": "ER19",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 62,
+    "district": "Birim South",
+    "districtcode": "ER17",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 63,
+    "district": "Bodie",
+    "districtcode": "WR22",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 64,
+    "district": "Bole",
+    "districtcode": "NR11",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 65,
+    "district": "Bolgatanga",
+    "districtcode": "UER01",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 66,
+    "district": "Bongo",
+    "districtcode": "UER05",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 67,
+    "district": "Bosome Freho",
+    "districtcode": "AR20",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 68,
+    "district": "Bosomtwe",
+    "districtcode": "AR27",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 69,
+    "district": "Bulisa North",
+    "districtcode": "UER13",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 70,
+    "district": "Bulisa South",
+    "districtcode": "UER08",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 71,
+    "district": "Bunkpurugu-Yunyoo",
+    "districtcode": "NR04",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 72,
+    "district": "Cape Coast",
+    "districtcode": "CR01",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 73,
+    "district": "Chereponi",
+    "districtcode": "NR14",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 74,
+    "district": "Daffiama Bissie Issa",
+    "districtcode": "UWR08",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 75,
+    "district": "Dayi North",
+    "districtcode": "VR15",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 76,
+    "district": "Dayi South",
+    "districtcode": "VR07",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 77,
+    "district": "Denkyembour",
+    "districtcode": "ER21",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 78,
+    "district": "Dormaa Central",
+    "districtcode": "BR06",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 79,
+    "district": "Dormaa East",
+    "districtcode": "BR18",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 80,
+    "district": "Dormaa West",
+    "districtcode": "BR26",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 81,
+    "district": "Efutu",
+    "districtcode": "CR04",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 82,
+    "district": "Ejisu Juaben",
+    "districtcode": "AR03",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 83,
+    "district": "Ejura-Sekyidumase",
+    "districtcode": "AR09",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 84,
+    "district": "Ekumfi",
+    "districtcode": "CR20",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 85,
+    "district": "Ellembelle",
+    "districtcode": "WR12",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 86,
+    "district": "Fanteakwa",
+    "districtcode": "ER11",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 87,
+    "district": "Ga Central",
+    "districtcode": "GR09",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 88,
+    "district": "Ga East",
+    "districtcode": "GR04",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 89,
+    "district": "Ga South",
+    "districtcode": "GR10",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 90,
+    "district": "Ga West",
+    "districtcode": "GR03",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 91,
+    "district": "Garu Tempane",
+    "districtcode": "UER06",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 92,
+    "district": "Gomoa East",
+    "districtcode": "CR14",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 93,
+    "district": "Gomoa West",
+    "districtcode": "CR15",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 94,
+    "district": "Gonja Central",
+    "districtcode": "NR05",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 95,
+    "district": "Gonja East",
+    "districtcode": "NR16",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 96,
+    "district": "Gonja North",
+    "districtcode": "NR22",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 97,
+    "district": "Gonja West",
+    "districtcode": "NR25",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 98,
+    "district": "Gushiegu",
+    "districtcode": "NR10",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 99,
+    "district": "Ho",
+    "districtcode": "VR04",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 100,
+    "district": "Ho West",
+    "districtcode": "VR22",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 101,
+    "district": "Hohoe",
+    "districtcode": "VR02",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 102,
+    "district": "Jaman North",
+    "districtcode": "BR15",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 103,
+    "district": "Jaman South",
+    "districtcode": "BR13",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 104,
+    "district": "Jasikan",
+    "districtcode": "VR14",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 105,
+    "district": "Jirapa",
+    "districtcode": "UWR07",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 106,
+    "district": "Jomoro",
+    "districtcode": "WR06",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 107,
+    "district": "Juabeso",
+    "districtcode": "WR21",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 108,
+    "district": "Kadjebi",
+    "districtcode": "VR05",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 109,
+    "district": "Karaga",
+    "districtcode": "NR12",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 110,
+    "district": "Kassena Nankana",
+    "districtcode": "UER03",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 111,
+    "district": "Kassena Nankana West",
+    "districtcode": "UER07",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 112,
+    "district": "Keta",
+    "districtcode": "VR01",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 113,
+    "district": "Ketu North",
+    "districtcode": "VR09",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 114,
+    "district": "Ketu South",
+    "districtcode": "VR13",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 115,
+    "district": "Kintampo North",
+    "districtcode": "BR01",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 116,
+    "district": "Kintampo South",
+    "districtcode": "BR16",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 117,
+    "district": "Komenda Edina Eguafo",
+    "districtcode": "CR02",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 118,
+    "district": "Kpandai",
+    "districtcode": "NR13",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 119,
+    "district": "Kpando",
+    "districtcode": "VR03",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 120,
+    "district": "Kpone",
+    "districtcode": "GR14",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 121,
+    "district": "Krachi East",
+    "districtcode": "VR08",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 122,
+    "district": "Krachi Ntsumuru",
+    "districtcode": "VR23",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 123,
+    "district": "Krachi West",
+    "districtcode": "VR17",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 124,
+    "district": "Kumasi Metro",
+    "districtcode": "AR01",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 125,
+    "district": "Kumbugu",
+    "districtcode": "NR19",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 126,
+    "district": "Kwabere East",
+    "districtcode": "AR24",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 127,
+    "district": "Kwaebibirem",
+    "districtcode": "ER22",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 128,
+    "district": "Kwahu Afram Plains North",
+    "districtcode": "ER23",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 129,
+    "district": "Kwahu Afram Plains South",
+    "districtcode": "ER24",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 130,
+    "district": "Kwahu East",
+    "districtcode": "ER15",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 131,
+    "district": "Kwahu South",
+    "districtcode": "ER13",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 132,
+    "district": "Kwahu West",
+    "districtcode": "ER03",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 133,
+    "district": "La Dade-Kotopon",
+    "districtcode": "GR11",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 134,
+    "district": "La Nkwantanang-Madina",
+    "districtcode": "GR08",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 135,
+    "district": "Lambussie Kami",
+    "districtcode": "UWR06",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 136,
+    "district": "Lawra",
+    "districtcode": "UWR11",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 137,
+    "district": "Ledzokuku Kronor",
+    "districtcode": "GR05",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 138,
+    "district": "Lower Manya Krobo",
+    "districtcode": "ER06",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 139,
+    "district": "Mampong",
+    "districtcode": "AR05",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 140,
+    "district": "Mamprugu Moaduri",
+    "districtcode": "NR20",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 141,
+    "district": "Mamprusi East",
+    "districtcode": "NR09",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 142,
+    "district": "Mamprusi West",
+    "districtcode": "NR18",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 143,
+    "district": "Mfantseman",
+    "districtcode": "CR08",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 144,
+    "district": "Mion",
+    "districtcode": "NR21",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 145,
+    "district": "Mpohor",
+    "districtcode": "WR20",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 146,
+    "district": "Nabdam",
+    "districtcode": "UER09",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 147,
+    "district": "Nadowli Kaleo",
+    "districtcode": "UWR09",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 148,
+    "district": "Nandom",
+    "districtcode": "UWR10",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 149,
+    "district": "Nanumba North",
+    "districtcode": "NR06",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 150,
+    "district": "Nanumba South",
+    "districtcode": "NR07",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 151,
+    "district": "New Juaben",
+    "districtcode": "ER01",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 152,
+    "district": "Ningo Prampram",
+    "districtcode": "GR15",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 153,
+    "district": "Nkoranza North",
+    "districtcode": "BR17",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 154,
+    "district": "Nkoranza South",
+    "districtcode": "BR07",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 155,
+    "district": "Nkwanta North",
+    "districtcode": "VR10",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 156,
+    "district": "Nkwanta South",
+    "districtcode": "VR12",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 157,
+    "district": "Nsawam Adoagyiri",
+    "districtcode": "ER07",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 158,
+    "district": "Nzema East",
+    "districtcode": "WR03",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 159,
+    "district": "Obuasi Municipal",
+    "districtcode": "AR02",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 160,
+    "district": "Offinso",
+    "districtcode": "AR06",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 161,
+    "district": "Offinso North",
+    "districtcode": "AR22",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 162,
+    "district": "Prestea Huni",
+    "districtcode": "WR09",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 163,
+    "district": "Pru",
+    "districtcode": "BR14",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 164,
+    "district": "Pusiga",
+    "districtcode": "UER11",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 165,
+    "district": "Saboba",
+    "districtcode": "NR15",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 166,
+    "district": "Sagnerigu",
+    "districtcode": "NR23",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 167,
+    "district": "Savelugu-Nanton",
+    "districtcode": "NR03",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 168,
+    "district": "Sawla Tuna Kalba",
+    "districtcode": "NR08",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 169,
+    "district": "Secondi-Takoradi Metro",
+    "districtcode": "WR01",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 170,
+    "district": "Sefwi Akontombra",
+    "districtcode": "WR11",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 171,
+    "district": "Sefwi Wiaso",
+    "districtcode": "WR04",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 172,
+    "district": "Sekyere Afram Plains",
+    "districtcode": "AR29",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 173,
+    "district": "Sekyere Central",
+    "districtcode": "AR19",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 174,
+    "district": "Sekyere East",
+    "districtcode": "AR26",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 175,
+    "district": "Sekyere Kumawu",
+    "districtcode": "AR30",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 176,
+    "district": "Sekyere South",
+    "districtcode": "AR25",
+    "targets": 0,
+    "regioncode": "AR",
+    "region": ""
+  },
+  {
+    "id": 177,
+    "district": "Sene East",
+    "districtcode": "BR23",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 178,
+    "district": "Sene West",
+    "districtcode": "BR21",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 179,
+    "district": "Shai-Osudoku",
+    "districtcode": "GR16",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 180,
+    "district": "Shama",
+    "districtcode": "WR10",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 181,
+    "district": "Sissala East",
+    "districtcode": "UWR04",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 182,
+    "district": "Sissala West",
+    "districtcode": "UWR05",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 183,
+    "district": "Suaman",
+    "districtcode": "WR17",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 184,
+    "district": "Suhum",
+    "districtcode": "ER08",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 185,
+    "district": "Sunyani",
+    "districtcode": "BR05",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 186,
+    "district": "Sunyani West",
+    "districtcode": "BR19",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 187,
+    "district": "Tain",
+    "districtcode": "BR22",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 188,
+    "district": "Talensi",
+    "districtcode": "UER12",
+    "targets": 0,
+    "regioncode": "UER",
+    "region": ""
+  },
+  {
+    "id": 189,
+    "district": "Tamale",
+    "districtcode": "NR01",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 190,
+    "district": "Tano North",
+    "districtcode": "BR09",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 191,
+    "district": "Tano South",
+    "districtcode": "BR10",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 192,
+    "district": "Tarkwa Nsuaem",
+    "districtcode": "WR02",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 193,
+    "district": "Tatale Sanguli",
+    "districtcode": "NR24",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 194,
+    "district": "Techiman",
+    "districtcode": "BR08",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 195,
+    "district": "Techiman North",
+    "districtcode": "BR27",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 196,
+    "district": "Tema Municipal",
+    "districtcode": "GR01",
+    "targets": 0,
+    "regioncode": "GR",
+    "region": ""
+  },
+  {
+    "id": 197,
+    "district": "Tolon",
+    "districtcode": "NR26",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 198,
+    "district": "Tongu Central",
+    "districtcode": "VR16",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 199,
+    "district": "Tongu North",
+    "districtcode": "VR20",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 200,
+    "district": "Tongu South",
+    "districtcode": "VR06",
+    "targets": 0,
+    "regioncode": "VR",
+    "region": ""
+  },
+  {
+    "id": 201,
+    "district": "Twifo Ati-Morkwa",
+    "districtcode": "CR18",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 202,
+    "district": "Twifo Hemang Lower",
+    "districtcode": "CR17",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 203,
+    "district": "Upper Akim West",
+    "districtcode": "ER25",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 204,
+    "district": "Upper Denkyira East",
+    "districtcode": "CR05",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 205,
+    "district": "Upper Denkyira West",
+    "districtcode": "CR13",
+    "targets": 0,
+    "regioncode": "CR",
+    "region": ""
+  },
+  {
+    "id": 206,
+    "district": "Upper Manya Krobo",
+    "districtcode": "ER16",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 207,
+    "district": "Wa",
+    "districtcode": "UWR01",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 208,
+    "district": "Wa East",
+    "districtcode": "UWR02",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 209,
+    "district": "Wa West",
+    "districtcode": "UWR03",
+    "targets": 0,
+    "regioncode": "UWR",
+    "region": ""
+  },
+  {
+    "id": 210,
+    "district": "Wassa Amenfi Central",
+    "districtcode": "WR13",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 211,
+    "district": "Wassa Amenfi West",
+    "districtcode": "WR14",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 212,
+    "district": "Wassa East",
+    "districtcode": "WR19",
+    "targets": 0,
+    "regioncode": "WR",
+    "region": ""
+  },
+  {
+    "id": 213,
+    "district": "Wenchi",
+    "districtcode": "BR04",
+    "targets": 0,
+    "regioncode": "BR",
+    "region": ""
+  },
+  {
+    "id": 214,
+    "district": "Yendi",
+    "districtcode": "NR02",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  },
+  {
+    "id": 215,
+    "district": "Yilo Krobo",
+    "districtcode": "ER10",
+    "targets": 0,
+    "regioncode": "ER",
+    "region": ""
+  },
+  {
+    "id": 216,
+    "district": "Zabzugu",
+    "districtcode": "NR17",
+    "targets": 0,
+    "regioncode": "NR",
+    "region": ""
+  }
+]

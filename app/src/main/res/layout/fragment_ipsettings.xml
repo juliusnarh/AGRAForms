@@ -1,0 +1,115 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.uclgroupgh.form.utils.AndroidUtils" />
+
+        <variable
+            name="ip"
+            type="com.uclgroupgh.form.pojo.IPSettingsPojo" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logo_background"
+        android:minWidth="1000dp"
+        tools:context="com.telpo.usb.finger.editfragments.IPSettingsFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtcomplete"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/round_corners3"
+                android:text="Save"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/txtport"
+                android:layout_width="match_parent"
+
+                android:layout_height="40dp"
+                android:layout_below="@+id/txtip"
+                android:layout_alignStart="@+id/txtip"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:hint="Port"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@={ip.port}" />
+
+            <EditText
+                android:id="@+id/txtcontext"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txtport"
+                android:layout_alignStart="@+id/txtport"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:hint="End Point"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@={ip.context}" />
+
+            <EditText
+                android:id="@+id/txtip"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:hint="IP Address / Domain Name/Base URL"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@={ip.ipaddress}" />
+
+            <EditText
+                android:id="@+id/txtprotocol"
+                android:layout_width="match_parent"
+
+                android:layout_height="40dp"
+                android:layout_below="@+id/txtcontext"
+                android:layout_alignStart="@+id/txtcontext"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/background_edittext"
+                android:ems="10"
+                android:hint="http or https"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@={ip.protocol}" />
+
+            <TextView
+                android:id="@+id/txtcomplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtprotocol"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="36dp"
+                android:text='@{AndroidUtils.INSTANCE.tolower(ip.protocol)+"://"+AndroidUtils.INSTANCE.tolower(ip.ipaddress)+":"+AndroidUtils.INSTANCE.tolower(ip.port)+"/"+AndroidUtils.INSTANCE.tolower(ip.context)}'
+                android:textAllCaps="false"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+
+</layout>

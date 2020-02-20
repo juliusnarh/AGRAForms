@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">AGRA Forms</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uclghana_alt">UCL</string>
+    <string name="uclghana">Ghana Limited</string>
+    <string name="ucl_logo">UCL logo</string>
+    <string name="data_tools">Data Collection Tools</string>
+    <string name="form1">Seed Production</string>
+    <string name="form2">Fertilizer Blends</string>
+    <string name="form3">Extension Events</string>
+    <string name="form4">Supported Enterprises</string>
+    <string name="form5">Aggregation Centres</string>
+    <string name="form6">Training</string>
+    <string name="surname">Surname</string>
+    <string name="first_name">First name</string>
+    <string name="other_names">Other names</string>
+    <string name="country">Country</string>
+    <string name="region">Province/Region</string>
+    <string name="district">District</string>
+    <string name="year">Year</string>
+    <string name="quarter">Quarter</string>
+    <string name="project">Consortium/Project</string>
+    <string name="grantee">Grantee</string>
+    <string name="theme">Training theme</string>
+    <string name="disaggregation_levels">Disaggregation levels (Select if applicable):</string>
+    <string name="period">Duration of Training</string>
+    <string name="venue">Venue / Place</string>
+    <string name="facilitators">Names and contacts of trainers / Facilitators</string>
+    <string name="training_title">TRAINING / FIELD-DAYS ATTENDANCE FORM</string>
+    <string name="add">add</string>
+    <string name="institution">Institution</string>
+    <string name="function">Function</string>
+    <string name="contact">Contact</string>
+    <string name="email">Email</string>
+    <string name="title">Title</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="clear_pad">Clear</string>
+    <string name="save_signature">Save</string>
+    <string name="agreement">Sign Here</string>
+    <string name="getsign">Get participant signature</string>
+    <string name="production">Production</string>
+    <string name="business">Business and Financial Development Services</string>
+    <string name="postharvest">Postharvest Technologies</string>
+    <string name="policy">Policy issues</string>
+    <string name="participant_type">Participant Type</string>
+    <string name="gender">Gender:</string>
+    <string name="please_wait">Loading. Please wait…</string>
+    <string name="please_wait_import">Please wait. Importing and saving participants</string>
+
+    <string name="indicator8">Number of crop varieties and other technologies commercialized with AGRA support</string>
+    <string name="indicator9">Quantity (MT) of improved seeds of focus crops produced by enterprises supported by AGRA
+    </string>
+    <string name="indicator10">Quantity (MT) of seeds sold as a result of AGRA support.</string>
+    <string name="indicator11">Number of national soil science labs supported for optimal operations in fertilizer and
+        soil health analysis
+    </string>
+    <string name="indicator12">Number of fertilizer blends developed as a result of AGRA support</string>
+    <string name="indicatorbmz">Quantity (MT) of fertilizer blends sold by local fertilizer producers supported by
+        AGRA
+    </string>
+    <string name="indicator74">Number of new public-private partnerships formed to drive specific aspects of the value
+        chain
+    </string>
+    <string name="indicator17">Number of extension service knowledge sharing events completed</string>
+    <string name="indicator18">Number of farmers and other value chain actors participating in AGRA supported knowledge
+        sharing events
+    </string>
+    <string name="indicator23">Cubic meters of storage space developed or refurbished through AGRA support</string>
+    <string name="indicator24">Number of storage facilities developed/ refurbished through AGRA support</string>
+    <string name="indicator25">Value (USD/MT) of commodity handling costs to store focus crops</string>
+    <string name="indicator27">Number of new people employed by enterprises supported by AGRA along the focus value
+        chains
+    </string>
+    <string name="indicator28">Number of enterprises supported and operating along the focus value chains as a result of
+        AGRA interventions
+    </string>
+    <string name="indicator63">Number of women-owned enterprises along the focus value chains supported</string>
+    <string name="indicator67">Number of youth-owned enterprises supported along focus value chains</string>
+
+    <string name="ind8">Indicator 8</string>
+    <string name="ind9">Indicator 9</string>
+    <string name="ind10">Indicator 10</string>
+    <string name="ind11">Indicator 11</string>
+    <string name="ind12">Indicator 12</string>
+    <string name="indbmz">Indicator BMZ 1.5</string>
+    <string name="ind74">Indicator 74</string>
+    <string name="ind17">Indicator 17</string>
+    <string name="ind18">Indicator 18</string>
+    <string name="ind23">Indicator 23</string>
+    <string name="ind24">Indicator 24</string>
+    <string name="ind25">Indicator 25</string>
+    <string name="ind27">Indicator 27</string>
+    <string name="ind28">Indicator 28</string>
+    <string name="ind63">Indicator 63</string>
+    <string name="ind67">Indicator 67</string>
+    <string name="soillab">Name of soil lab</string>
+    <string name="names_of_companies">Names of fertilizer companies commercializing the blends (PPPs)</string>
+    <string name="quantity_sold">Quantity sold (MT)</string>
+    <string name="quantity_produced">Quantity produced (MT)</string>
+
+    <string name="_15">15–25</string>
+    <string name="quantity_certified">Quantity Certified (MT)</string>
+    <string name="unitprice">Unit Price</string>
+    <string name="currency">Currency</string>
+    <string name="quantity">Quantity (MT)</string>
+    <string name="type_of_extension_event">Type of extension event</string>
+    <string name="addbtn">Add %s</string>
+    <string name="sync">Sync</string>
+    <string name="forms">Forms</string>
+    <string name="history">History</string>
+    <string name="no_record_available">No Record Available</string>
+    <string name="mt">%s MT</string>
+    <string name="ha">%s Ha</string>
+    <string name="farmer_fullname">%1$s, %2$s</string>
+    <string name="import_participants">import participants from file</string>
+    <string name="close_dialog">Do you want to close form?</string>
+    <string name="close_dialog_title">Cancel?</string>
+    <string name="dialog_positive">Yes</string>
+    <string name="dialog_negative">No</string>
+    <string name="configuration">Configuring application. This will occur once…</string>
+    <string name="empty" />
+    <string name="imports">import selection</string>
+    <string name="reset_selection">reset selection</string>
+
+
+</resources>

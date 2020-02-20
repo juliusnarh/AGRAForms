@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/logo_background"
+            android:padding="8dp"
+            android:theme="@style/Forframe">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/help"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginBottom="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/round_help_24"
+                            android:tint="@color/colorButton" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="0.9"
+                                android:fontFamily="@font/dosis_extrabold"
+                                android:padding="5dp"
+                                android:text="ENTERPRISES SUPPORTED BY AGRA"
+                                android:textAllCaps="true"
+                                android:textColor="@color/grey_600"
+                                android:textSize="@dimen/text_size_medium" />
+
+                            <ImageView
+                                android:id="@+id/close"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackground"
+                                android:src="@drawable/round_close_24" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Enterprise name"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/enterprisename"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="text|textCapSentences"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Contact"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/contact"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="number"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Agro Dealer Type"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/agrodealertype"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:clickable="true"
+                            android:drawablePadding="5dp"
+                            android:focusable="false"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="number"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Seed Producer Type"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/seedproducer"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:clickable="true"
+                            android:drawablePadding="5dp"
+                            android:focusable="false"
+                            android:fontFamily="sans-serif-light"
+                            android:hint=""
+                            android:inputType="number"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="13dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="8dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Female Ownership status"
+                                    android:textSize="@dimen/text_size_extra_small"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/femaleownerstatus"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/background_edittext"
+                                    android:clickable="true"
+                                    android:drawablePadding="5dp"
+                                    android:focusable="false"
+                                    android:fontFamily="sans-serif-light"
+                                    android:inputType="number"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:textSize="15sp"
+                                    app:validateEmpty="@{true}" />
+
+                                <TextView
+                                    android:id="@+id/ind63"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="3dp"
+                                    android:clickable="true"
+                                    android:focusable="false"
+                                    android:paddingTop="5dp"
+                                    android:paddingBottom="15dp"
+                                    android:text="@string/ind63"
+                                    android:textAlignment="viewStart"
+                                    android:textSize="@dimen/text_size_extra_small"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Youth Ownership status"
+                                    android:textSize="@dimen/text_size_extra_small"
+                                    android:textStyle="bold" />
+
+                                <EditText
+                                    android:id="@+id/youthownerstatus"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/background_edittext"
+                                    android:clickable="true"
+                                    android:drawablePadding="5dp"
+                                    android:focusable="false"
+                                    android:fontFamily="sans-serif-light"
+                                    android:inputType="number"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:textSize="15sp"
+                                    app:validateEmpty="@{true}" />
+
+                                <TextView
+                                    android:id="@+id/ind67"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:clickable="true"
+                                    android:focusable="false"
+                                    android:paddingTop="5dp"
+                                    android:paddingBottom="15dp"
+                                    android:text="@string/ind67"
+                                    android:textAlignment="viewEnd"
+                                    android:textSize="@dimen/text_size_extra_small"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="Type of employment"
+                            android:textSize="@dimen/text_size_small"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Full Time"
+                            android:textSize="@dimen/text_size_extra_small" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <RelativeLayout
+                                android:id="@+id/fulltime_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/fulltime_male"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/fulltime_male"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/male"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/fulltime_layout2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/fulltime_female"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/fulltime_female"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/female"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Part Time"
+                            android:textSize="@dimen/text_size_extra_small" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <RelativeLayout
+                                android:id="@+id/parttime_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/parttime_male"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/parttime_male"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/male"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/parttime_layout2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/parttime_female"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/parttime_female"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/female"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="Casual"
+                            android:textSize="@dimen/text_size_extra_small" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <RelativeLayout
+                                android:id="@+id/casual_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/casual_male"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/casual_male"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/male"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/casual_layout2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/casual_female"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/casual_female"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="@string/female"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="15dp"
+                            android:text="@string/ind28"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:textAlignment="viewEnd"
+                            android:textSize="@dimen/text_size_extra_small"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="Age group"
+                            android:textSize="@dimen/text_size_small"
+                            android:textStyle="bold" />
+
+
+                        <EditText
+                            android:id="@+id/agegroup"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:clickable="true"
+                            android:drawablePadding="5dp"
+                            android:focusable="false"
+                            android:fontFamily="sans-serif-light"
+                            android:hint="@string/_15"
+                            android:inputType="number"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+                    </LinearLayout>
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_marginTop="30dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/round_save_alt_white_24"
+                        app:backgroundTint="@color/colorAccent"
+                        app:elevation="0dp"
+                        app:fabSize="mini"
+                        app:maxImageSize="20dp"
+                        app:rippleColor="@color/black_overlay" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

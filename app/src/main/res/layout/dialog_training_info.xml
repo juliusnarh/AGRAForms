@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        tools:context=".form.dialogs.trainingforms.TrainingFormDailog1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/logo_background"
+            android:padding="10dp"
+            android:theme="@style/Forframe">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="0.9"
+                                android:fontFamily="@font/dosis_extrabold"
+                                android:padding="5dp"
+                                android:text="@string/training_title"
+                                android:textAllCaps="true"
+                                android:textColor="@color/grey_600"
+                                android:textSize="@dimen/text_size_small" />
+
+                            <ImageView
+                                android:id="@+id/close"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackground"
+                                android:src="@drawable/round_close_24" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="Event:"
+                            android:textSize="@dimen/text_size_extra_small"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <RelativeLayout
+                                android:id="@+id/training_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/training"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/training"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="Training"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/fieldday_layout"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                <CheckBox
+                                    android:id="@+id/fieldday"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_toEndOf="@+id/fieldday"
+                                    android:fontFamily="sans-serif-light"
+                                    android:text="Field Day"
+                                    android:textSize="@dimen/text_size_medium" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="@string/theme"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="text|textCapSentences"
+                            android:lines="5"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="@string/disaggregation_levels"
+                            android:textSize="@dimen/text_size_extra_small"
+                            android:textStyle="bold" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <com.robertlevonyan.views.chip.Chip
+                                    android:id="@+id/productionchip"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    app:mcv_chipText="@string/production"
+                                    app:mcv_selectable="true"
+                                    app:mcv_selectedBackgroundColor="@color/colorAccent" />
+
+                                <com.robertlevonyan.views.chip.Chip
+                                    android:id="@+id/policychip"
+                                    style="@style/Widget.MaterialComponents.Chip.Filter"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    app:chipIconSize="@dimen/text_size"
+                                    app:mcv_chipText="@string/policy"
+                                    app:mcv_selectable="true"
+                                    app:mcv_selectedBackgroundColor="@color/colorAccent" />
+
+                                <com.robertlevonyan.views.chip.Chip
+                                    android:id="@+id/harvestchip"
+                                    style="@style/Widget.MaterialComponents.Chip.Filter"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    app:chipIconSize="@dimen/text_size"
+                                    app:mcv_chipText="@string/postharvest"
+                                    app:mcv_selectable="true"
+                                    app:mcv_selectedBackgroundColor="@color/colorAccent" />
+
+                                <com.robertlevonyan.views.chip.Chip
+                                    android:id="@+id/businesschip"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="5dp"
+                                    app:chipIconSize="@dimen/text_size"
+                                    app:mcv_chipText="@string/business"
+                                    app:mcv_selectable="true"
+                                    app:mcv_selectedBackgroundColor="@color/colorAccent" />
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="@string/period"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/period"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="text|textCapSentences"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="@string/venue"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/venue"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="text|textCapSentences"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="@string/facilitators"
+                            android:textSize="@dimen/text_size_extra_small" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="3dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="3dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="0.9"
+                                android:text="Name"
+                                android:textSize="@dimen/text_size_tiny"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="0.9"
+                                android:text="@string/contact"
+                                android:textAlignment="viewEnd"
+                                android:textSize="@dimen/text_size_tiny"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+                            <EditText
+                                android:id="@+id/name"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1.5"
+                                android:background="@drawable/background_edittext"
+                                android:drawablePadding="5dp"
+                                android:fontFamily="sans-serif-light"
+                                android:inputType="text|textCapSentences"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:textSize="15sp" />
+
+                            <EditText
+                                android:id="@+id/contact"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="1.4"
+                                android:background="@drawable/background_edittext"
+                                android:drawablePadding="5dp"
+                                android:fontFamily="sans-serif-light"
+                                android:inputType="number"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:textSize="15sp" />
+
+                            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                android:id="@+id/add"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end|center"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.5"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/round_add_white_18"
+                                app:backgroundTint="@color/colorAccent"
+                                app:elevation="0dp"
+                                app:fabCustomSize="30dp"
+                                app:maxImageSize="18dp"
+                                app:rippleColor="@color/black_overlay" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:animateLayoutChanges="true"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/trainername"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textSize="@dimen/text_size_small" />
+
+                            <TextView
+                                android:id="@+id/trainercontact"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textSize="@dimen/text_size_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!-- YOUR CUSTOM VIEWS HERE -->
+
+            </ScrollView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginTop="30dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/round_save_alt_white_18"
+                app:backgroundTint="@color/colorAccent"
+                app:elevation="0dp"
+                app:fabCustomSize="40dp"
+                app:fabSize="normal"
+                app:maxImageSize="20dp"
+                app:rippleColor="@color/black_overlay" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

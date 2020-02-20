@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/farmer_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_bottomsheet"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin_less"
+        android:animateLayoutChanges="true">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_strip"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/import_actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:mrl_rippleAlpha="0.1"
+                    app:mrl_rippleColor="#000000"
+                    app:mrl_rippleDimension="10dp"
+                    app:mrl_rippleHover="true"
+                    app:mrl_rippleDuration="200"
+                    app:mrl_rippleOverlay="true"
+                    app:mrl_rippleRoundedCorners="18dp">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/import_participants"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_background_selected"
+                        android:elevation="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/dosis_medium"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:text="@string/imports"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/text_size_bsmall"
+                        android:textStyle="bold" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleColor="#000000"
+                app:mrl_rippleDimension="10dp"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleOverlay="true"
+                app:mrl_rippleDuration="200"
+                app:mrl_rippleRoundedCorners="18dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/reset_selection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_background_default"
+                    android:elevation="5dp"
+                    android:fontFamily="@font/dosis_medium"
+                    android:gravity="center"
+                    android:text="@string/reset_selection"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/text_size_bsmall"
+                    android:textStyle="bold" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:fitsSystemWindows="false" />
+
+    </LinearLayout>
+</layout>

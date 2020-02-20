@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/logo_background"
+            android:padding="8dp"
+            android:theme="@style/Forframe">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/help"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_marginBottom="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/round_help_24"
+                            android:tint="@color/colorButton" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:id="@+id/item"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_weight="0.9"
+                                android:fontFamily="@font/dosis_extrabold"
+                                android:padding="5dp"
+                                android:text="breeder seed"
+                                android:textAllCaps="true"
+                                android:textColor="@color/grey_600"
+                                android:textSize="@dimen/text_size_medium" />
+
+                            <ImageView
+                                android:id="@+id/close"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.1"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:foreground="?attr/selectableItemBackground"
+                                android:src="@drawable/round_close_24" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorAccent" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:text="Seed Variety"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/variety"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:clickable="true"
+                            android:drawablePadding="5dp"
+                            android:focusable="false"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="text|textCapSentences"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:text="First time in production (yes, no)"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/firsttimeinproduction"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:clickable="true"
+                            android:drawablePadding="5dp"
+                            android:focusable="true"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="text|textCapSentences"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+
+                        <TextView
+                            android:id="@+id/ind8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="15dp"
+                            android:text="@string/ind8"
+                            android:textAlignment="viewEnd"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Plot size (Ha)"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/plotsize"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="numberDecimal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:text="@string/quantity_produced"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/quantity_produced"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="number"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:text="@string/quantity_certified"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/quantity_certified"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="number"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+                        <TextView
+                            android:id="@+id/ind9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="10dp"
+                            android:text="@string/ind9"
+                            android:textAlignment="viewEnd"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="3dp"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:text="@string/quantity_sold"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/quantity_sold"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_edittext"
+                            android:drawablePadding="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="number"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:textSize="15sp"
+                            app:validateEmpty="@{true}" />
+
+
+                        <TextView
+                            android:id="@+id/ind10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="10dp"
+                            android:text="@string/ind10"
+                            android:textAlignment="viewEnd"
+                            android:textSize="@dimen/text_size_tiny"
+                            android:textStyle="bold" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="3dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="1.5"
+                                android:foreground="?attr/selectableItemBackground"
+                                android:text="Unit Price"
+                                android:textSize="@dimen/text_size_tiny"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_weight="0.5"
+                                android:foreground="?attr/selectableItemBackground"
+                                android:text="Currency"
+                                android:textAlignment="viewEnd"
+                                android:textSize="@dimen/text_size_tiny"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+                            <EditText
+                                android:id="@+id/unitprice"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1.3"
+                                android:background="@drawable/background_edittext"
+                                android:drawablePadding="5dp"
+                                android:fontFamily="sans-serif-light"
+                                android:inputType="number"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:textSize="15sp"
+                                app:validateEmpty="@{true}" />
+
+                            <EditText
+                                android:id="@+id/currency"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_weight="0.7"
+                                android:background="@drawable/background_edittext"
+                                android:clickable="true"
+                                android:drawablePadding="5dp"
+                                android:focusable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:inputType="text|textCapSentences"
+                                android:paddingLeft="15dp"
+                                android:paddingRight="15dp"
+                                android:textSize="12sp"
+                                app:validateEmpty="@{true}" />
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                    android:id="@+id/save"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_gravity="bottom|end"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    android:src="@drawable/round_save_alt_white_24"
+                                    app:backgroundTint="@color/colorAccent"
+                                    app:elevation="0dp"
+                                    app:fabSize="mini"
+                                    app:maxImageSize="20dp"
+                                    app:rippleColor="@color/black_overlay" />
+                            </LinearLayout>
+
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

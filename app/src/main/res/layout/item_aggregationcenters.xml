@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/summary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/grey_100"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="CollectorID:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/collectorid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Collector Name:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Storage Facility:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/storagefacilityname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Location:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Construction Type:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/newConstructiontype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Refurbished Type:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/refurbishedtype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Warehouse Type:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/warehousetype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Silos Type:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/silotype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Pics Bags Type"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/picsbagstype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Stores Type:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/storestype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Volume:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/volume"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Crop:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/crops"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Quantity Stored:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/quantitystored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Farmers Served:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/farmersserved"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Handling Cost:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/handlingCost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Currency:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/currency"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Quantity Sold:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/quantity_sold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Average Price:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/averageprice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Date:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "region": "Ashanti",
+    "regioncode": "AR"
+  },
+  {
+    "id": 2,
+    "region": "Brong Ahafo",
+    "regioncode": "BR"
+  },
+  {
+    "id": 3,
+    "region": "Central",
+    "regioncode": "CR"
+  },
+  {
+    "id": 4,
+    "region": "Eastern",
+    "regioncode": "ER"
+  },
+  {
+    "id": 5,
+    "region": "Greater Accra ",
+    "regioncode": "GR"
+  },
+  {
+    "id": 6,
+    "region": "Northern",
+    "regioncode": "NR"
+  },
+  {
+    "id": 7,
+    "region": "Upper East",
+    "regioncode": "UER"
+  },
+  {
+    "id": 8,
+    "region": "Upper West",
+    "regioncode": "UWR"
+  },
+  {
+    "id": 9,
+    "region": "Volta",
+    "regioncode": "VR"
+  },
+  {
+    "id": 10,
+    "region": "Western",
+    "regioncode": "WR"
+  },
+  {
+    "id": 12,
+    "region": "Oti ",
+    "regioncode": "OR"
+  }
+]

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/summary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/grey_100"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="CollectorID:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/collectorid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Collector Name:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1."
+                android:fontFamily="@font/dosis_medium"
+                android:text="Trainer Name:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/trainername"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Mr. xxx xxx"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Trainer Contact:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/trainercontact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="TraineeID:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/traineeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Event:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/event"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Theme:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/theme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Period:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/period"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Venue:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/venue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Date:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Disaggregation Levels:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/disaggregation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

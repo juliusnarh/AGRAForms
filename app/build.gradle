@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.uclgroupgh.form"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'com.robertlevonyan.view:MaterialChipView:1.2.5'
+    implementation 'com.andkulikov:transitionseverywhere:1.8.0'
+    implementation 'com.github.satyan:sugar:1.5'
+    implementation 'com.github.GrenderG:Toasty:1.4.0'
+    implementation 'com.github.Ilhasoft:data-binding-validator:1.0.0'
+    implementation 'com.mikhaellopez:circularimageview:3.2.0'
+    implementation 'com.karumi:dexter:4.2.0'
+    implementation 'com.github.gcacace:signature-pad:1.2.1'
+    implementation 'com.afollestad.material-dialogs:core:3.1.1'
+    implementation 'com.afollestad.material-dialogs:files:3.1.1'
+    implementation 'com.afollestad.material-dialogs:lifecycle:3.1.1'
+
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'net.gotev:uploadservice:3.4.1'
+    implementation 'net.gotev:uploadservice-okhttp:3.4.1'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'net.gotev:hostmonitor:2.0@aar'
+    implementation 'com.airbnb.android:lottie:3.1.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //FOR RECYCLER VIEWS
+    implementation 'dev.ahamed.mva2:adapter:2.0.0-beta01'
+    implementation 'dev.ahamed.mva2:ext-databinding:2.0.0-beta01'
+    implementation 'dev.ahamed.mva2:ext-decorator:2.0.0-beta01'
+
+
+    implementation 'jp.wasabeef:recyclerview-animators:2.2.7'
+    implementation files('src/main/libs/opencsv-2.4.jar')
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

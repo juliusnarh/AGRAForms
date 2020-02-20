@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006937</color>
+    <color name="colorPrimaryDark">#004925</color>
+    <color name="colorAccent">#A4C024</color>
+    <color name="badgebackground">#C1A4C024</color>
+    <color name="frame">#D3DB306F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="ash">#efefef</color>
+    <color name="ase">#b4b4b4</color>
+    <color name="text_color">#43A047</color>
+    <color name="colorButton">#0277bd</color>
+    <color name="black_overlay">#4b000000</color>
+    <color name="acc">#e6ee9c</color>
+    <color name="acc3">#EEFF41</color>
+    <color name="acc2">#d190a955</color>
+    <color name="green2">#E8F5E9</color>
+    <color name="green3">#A5D6A7</color>
+    <color name="green4">#81C784</color>
+    <color name="green5">#66BB6A</color>
+    <color name="green6">#4CAF50</color>
+    <color name="green7">#388E3C</color>
+    <color name="green8">#1B5E20</color>
+    <color name="bar">#87AF53</color>
+
+    <color name="viewBg">#eaf1f5f8</color>
+    <color name="blue_grey">#263238</color>
+    <color name="shadow">#D528292C</color>
+    <color name="shadow2">#6B28292C</color>
+    <color name="badge_color">#C62828</color>
+    <color name="alpha">#8dc62828</color>
+    <color name="greyed">#bdbdbd</color>
+    <color name="secondary_light">#39796b</color>
+    <color name="checkout_alpha">#9239796b</color>
+    <color name="grey_001">#E5E6E8</color>
+    <color name="grey_000">#e0f5f5f5</color>
+    <color name="grey_100">#F3F3F3</color>
+    <color name="grey_100a">#81F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="bar1">#716658</color>
+    <color name="bar2">#5c33691e</color>
+    <color name="bar3">#689f38</color>
+    <color name="bar4">#FFFF96</color>
+    <color name="md_red_500">#F44336</color>
+    <color name="orange_400">#FFA726</color>
+    <color name="orange_800">#EF6C00</color>
+    <color name="md_red_900">#B71C1C</color>
+
+    <color name="color1">#1A6C98</color>
+    <color name="color2">#289EA3</color>
+    <color name="color3">#2CAAA6</color>
+    <color name="color4">#31AAA5</color>
+    <color name="color5">#0086C9</color>
+
+
+</resources>

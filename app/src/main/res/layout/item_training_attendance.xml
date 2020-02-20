@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/summary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="15dp"
+    app:cardBackgroundColor="@color/grey_100"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="CollectorID:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/collectorid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Collector Name:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="TraineeID:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/traineeid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1."
+                android:fontFamily="@font/dosis_medium"
+                android:text="Participant Name:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/participantname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Mr. xxx xxx"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Gender:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Participant Type:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/participanttype"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Function:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/function"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Institution:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/institution"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Region:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/region"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="District:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/district"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Telephone:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Email:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_medium"
+                android:text="Date:"
+                android:textSize="@dimen/text_size_ssmall" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/dosis_bold"
+                android:text="Joe Anim"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_ssmall" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_small">13.0sp</dimen>
+    <dimen name="text_size_ssmall">12.0sp</dimen>
+    <dimen name="text_size_bsmall">15.0sp</dimen>
+    <dimen name="text_size_extra_small">11.0sp</dimen>
+    <dimen name="text_size_tiny">10.0sp</dimen>
+    <dimen name="text_size">18.0sp</dimen>
+    <dimen name="text_size_medium">16.0sp</dimen>
+    <dimen name="text_size_medium_up">17.0sp</dimen>
+    <dimen name="text_size_medium_up_up">18.0sp</dimen>
+    <dimen name="text_size_extra_large">23.0sp</dimen>
+    <dimen name="text_size_large">20.0sp</dimen>
+    <dimen name="activity_margin">10dp</dimen>
+    <dimen name="activity_margin_less">5dp</dimen>
+    <dimen name="row_padding">15dp</dimen>
+    <dimen name="thumbnail">40dp</dimen>
+</resources>

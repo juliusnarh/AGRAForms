@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/logo_background"
+            android:theme="@style/Forframe">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/logo_background"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+
+                        <ImageView
+                            android:id="@+id/close"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.15"
+                            android:padding="5dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:src="@drawable/round_close_24" />
+                    </LinearLayout>
+
+                    <!--/////SEEDS/////-->
+                    <LinearLayout
+                        android:id="@+id/seed_production"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ind8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind8"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator8"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind9"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator9"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind10"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator10"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!--////FERTILIZER//////-->
+                    <LinearLayout
+                        android:id="@+id/fertilizer_blends"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ind11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind11"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator11"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind12"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator12"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/indbmz"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/indbmz"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicatorbmz"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind74"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind74"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator74"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!--////EXTENSION EVENTS////-->
+                    <LinearLayout
+                        android:id="@+id/extension_events"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ind17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind17"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator17"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind18"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator18"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!--////ENTERPRISES////-->
+                    <LinearLayout
+                        android:id="@+id/enterprises"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ind27"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind27"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator27"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind28"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind28"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator28"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind63"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind63"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator63"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind67"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind67"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator67"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!--////AGGREGATION CENTRES////-->
+                    <LinearLayout
+                        android:id="@+id/aggregation_centres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ind23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind23"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator23"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind24"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator24"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ind25"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.22"
+                                android:fontFamily="sans-serif-light"
+                                android:text="@string/ind25"
+                                android:textColor="@color/orange_800"
+                                android:textSize="@dimen/text_size_ssmall"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.78"
+                                android:text="@string/indicator25"
+                                android:textSize="@dimen/text_size_small"
+                                android:textStyle="italic" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/types"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textSize="@dimen/text_size_extra_small"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+            <!-- YOUR CUSTOM VIEWS HERE -->
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>
